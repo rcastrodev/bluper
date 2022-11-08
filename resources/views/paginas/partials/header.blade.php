@@ -37,8 +37,8 @@
                         <a class="nav-link font-size-16 text-white position-absolute" href="{{ route('index') }}" style="top:-40px;">
                             <img src="{{ asset($data->logo_header) }}" class="img-fluid logo-header d-block me-2" style="max-width:100%;"></a>
                     </li> 
-                    <li class="nav-item text-sm-start text-md-end @if(Request::is('representantes')) position-relative @endif">
-                        <a class="nav-link font-size-16 text-white @if(Request::is('representantes')) active @endif" href="#" >Representantes</a>
+                    <li class="nav-item text-sm-start text-md-end @if(Request::is('distribuidores')) position-relative @endif">
+                        <a class="nav-link font-size-16 text-white @if(Request::is('distribuidores')) active @endif" href="#" >Distribuidores</a>
                     </li>
                     <li class="nav-item text-sm-start text-md-end @if(Request::is('nosotros')) position-relative @endif">
                         <a class="nav-link font-size-16 text-white @if(Request::is('nosotros')) active @endif" href="{{ route('empresa') }}" >nosotros</a>

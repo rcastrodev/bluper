@@ -18,7 +18,8 @@
                             <a href="{{ route('novedades') }}" class="d-block text-decoration-none text-white mb-2 underline font-size-16">Novedades</a>
                         </div>
                         <div class="col-sm-12 col-md-6">
-                            <a href="#" class="d-block text-decoration-none text-white mb-2 underline font-size-16">Representantes</a>
+
+                            <a href="#" class="d-block text-decoration-none text-white mb-2 underline font-size-16">Distribuidores</a>
                             <a href="{{ route('empresa') }}" class="d-block text-decoration-none text-white mb-2 underline font-size-16">Nosotros</a>
                             <a href="{{ route('contacto') }}" class="d-block text-decoration-none text-white mb-2 underline font-size-16">Contacto</a>
                         </div>

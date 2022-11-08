@@ -29,7 +29,7 @@ Route::get('/producto/{slug}', 'PagesController@producto')->name('producto');
 Route::get('/descargas', 'PagesController@descargas')->name('descargas');
 Route::get('/novedades', 'PagesController@novedades')->name('novedades');
 Route::get('/novedad/{id}', 'PagesController@novedad')->name('novedad');
-Route::get('/representantes', 'PagesController@representantes')->name('representantes');
+Route::get('/distribuidores', 'PagesController@representantes')->name('distribuidores');
 Route::get('/contacto', 'PagesController@contacto')->name('contacto');
 Route::post('enviar-contacto', 'MailController@contact')->name('send-contact');
 Route::get('/descargar-archivo/{id}/{reg}', 'ContentController@descargarArchivo')->name('descargar-archivo');
